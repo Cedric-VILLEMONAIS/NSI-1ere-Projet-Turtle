@@ -1,1 +1,1 @@
-[Documentation officielle](https://docs.python.org/fr/3/library/turtle.html)
+[Documentation officielle](https://docs.python.org/fr/3/library/turtle.html){:target="_blank"}
