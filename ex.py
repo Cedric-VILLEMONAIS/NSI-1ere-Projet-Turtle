@@ -1,8 +1,12 @@
 from turtle import *
 
-home()
-left(67)
-right(30)
-print(heading())
+
+
+pensize(10)
+forward(100)
+pensize(1)
+forward(15)
+width(10)
+forward(100)
 
 done()

@@ -14,6 +14,7 @@ from turtle import *
 | ```speed()```                                         | Obtenir la vitesse actuelle de la tortue (entre 0 et 10 inclus)                             |
 | ```xcor()```                                          | Obtenir la coordonnée x de la tortue                                                        |
 | ```ycor()```                                          | Obtenir la coordonnée y de la tortue                                                        |
+| ```distance(x, y) / distance(variable)```             | Obtenir la distance entre la tortue et des coordonnées ou une variable [(voir exemple 3 de la documentation dessous)](#exemple-3) |
 
 ## Actions sur la tortue :
 | Postitons et mouvements                               |                                                                                             |
@@ -36,14 +37,16 @@ from turtle import *
 | ```dot(diametre, color)```                            | Dessine un point, diametre : diamètre du point et color : couleur du point (pour les couleurs voir tableau suivant) |
 
 
-| Couleurs      | Les chaines de caractères doivent contenir un nom de couleur ou une valeur [hexadécimale](https://htmlcolorcodes.com/color-picker/) |
+| Couleurs   | Les chaines de caractères doivent contenir un nom de couleur ou une valeur [hexadécimale](https://htmlcolorcodes.com/color-picker/) ou un code rgb, ex : (255, 25, 56)|
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | ```color("color")```                                  | Changer la couleur du trait tracé                                                           |
 | ```fillcolor("color")```                              | Changer la couleur de remplissage                                                           |
-| ```up()```                                            | Activer le traçage des lignes                                                               |
-| ```down()```                                          | Désctiver le traçage des lignes                                                             |
+| ```up() / penup() / pu()```                           | Activer le traçage des lignes                                                               |
+| ```down() / pendown() / pd()```                       | Désctiver le traçage des lignes                                                             |
 | ```begin_fill()```                                    | Activer le remplissage                                                                      |
 | ```end_fill()```                                      | Désactiver le remplissage                                                                   |
+| ```pensize(taille) / width(taille)```                 | Règle la taille du trait tracé par la tortue                                                |
+
 
 
 ## Actions sur l'écran et la fenêtre :
@@ -63,7 +66,7 @@ from turtle import *
 
 ## Exemples :
 ### Exemples de la documentation :
-#### Utilisation des boucles et des couleurs :
+#### Exemple 1 :
 ```python
 for steps in range(100):
     for c in ('blue', 'red', 'green'):
@@ -74,6 +77,8 @@ for steps in range(100):
 
 ![](Documentation/Ex_doc_boucle_1.png)
 
+
+#### Exemple 2 :
 ```python
 color('red')
 begin_fill()
@@ -86,6 +91,20 @@ while True:
 end_fill()
 ```
 ![](Documentation/Ex_doc_boucle_2.png)
+
+#### Exemple 3 :
+```python
+home()
+print(distance(30,40)) # 50.0
+# Il est possible de créer plusieurs tortues comme dans l'exemple ci-dessous on crée une tortue joe
+joe = Turtle()
+joe.forward(77)
+color("blue") # On change la couleur de la tortue d'origine en bleu
+backward(60)
+print(distance(joe)) # 137.0 (77+60=137)
+```
+![](Documentation/Ex_doc_3.png)
+
 
 ### Exemples du cours :
 #### Application 1 :
