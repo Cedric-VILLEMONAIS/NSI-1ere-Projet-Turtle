@@ -3,6 +3,8 @@
 
 <a href="https://github.com/Cedric-VILLEMONAIS/Python-Turtle-Documentation" target="_blank">Ma dcumentation</a>
 
+
+
 Un coucher de soleil avec des nuages sur une plage avec la mer et des poissons et sur la plage des chateaux de sables.
 
 **Coucher de soleil :** Faire un cercle pour le soleil avec pour le coucher de soleil des petits cercles autours avec un dégradé (pour le dégradé faire une fonction qui trace plein de petits cercles autour du soleil avec une boucle qui active l'autre fonction avec comme un système d'incrémentation sur le code hexadécimal de la couleur. Cette deuxième fonction s'appellera gradient() prendra pour arguments (couleur_départ_hex, couleur_fin_hex)
