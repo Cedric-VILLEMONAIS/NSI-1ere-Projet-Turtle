@@ -8,9 +8,18 @@ screensize(1500, 750)
 bgcolor("#87ceeb")
 
 
-
 nuage()
 
+
+
+goto(750,375)
+home()
+goto(750, -375)
+home()
+goto(-750,375)
+home()
+goto(-750,-375)
+home()
 
 
 done()
