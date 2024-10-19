@@ -26,7 +26,7 @@ Un coucher de soleil avec des nuages sur une plage avec la mer et des poissons e
 - **Documenter les fonctions et le code (cours 3.)**
 - **Effectuer des tests avec le module doctest et les conditions try et expect (cours 3.)**
 
-**Demander à l'utilisateur :**
+**Demander à l'utilisateur :** (utiliser numinput() : ex : numinput("Heure", "Quelle heure entre 18 et 22 ?", minval=18, maxval=22)
 -  Quelle heure entre par ex (18 et 22) et adapter en fonction la couleur d'arrière plan ainsi que la couleur du soleil
 - Si le temps est nuageux ou pas et adapter ainsi le nombre de nuages
 - Si c'est des petits ou gros nuages et ainsi adapter le random randint()
