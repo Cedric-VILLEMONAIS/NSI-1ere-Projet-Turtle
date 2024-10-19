@@ -15,7 +15,7 @@ Un coucher de soleil avec des nuages sur une plage avec la mer et des poissons e
 
 **Mer :** voire s'il n'est pas possible de faire un effet pour avoir l'impression que l'eau arrive du fond de l'image si c'est techniquement possible
 
-**Animaux aquatiques :** Essayer de créer plusieurs tortues en même temps avec des variables et avec turtle shape() voir s'il est techniquement possible de mettre un poisson et d'en fonction de la position de la mer sur le dessin faire en sorte qu'il bouge à des postitions aléatoires. Essayer de faire aussi avec des boucles while en changeant l'apparence du turtle afin qu'on ai un effet de poisson qui nage
+**Animaux aquatiques :** Essayer de créer plusieurs tortues en même temps avec des variables et avec turtle shape() voir s'il est techniquement possible de mettre un poisson et d'en fonction de la position de la mer sur le dessin faire en sorte qu'il bouge à des postitions aléatoires. Essayer de faire aussi avec des boucles while en changeant l'apparence du turtle afin qu'on ai un effet de poisson qui nage --> register_shape()
 
 **Chateaux de sables :** avec un random randint créer un nombre aléatoire de chateaux avec des tailles aléatoires
 
