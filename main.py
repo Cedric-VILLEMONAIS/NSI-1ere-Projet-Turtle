@@ -26,7 +26,7 @@ def sunset() :
     Cette fonction permet de dessiner un soleil et de lui attribuer une couleur en fonction de l'heure choisie précédemment
     """   
     up()
-    goto(-200,100)
+    goto(-200,200)
     down()
     seth(90)
     if 17>=user_hour<18:
