@@ -22,7 +22,7 @@ if user_cloud==1 : cloud()
 
 
 def sunset() :
-    # penup()
+    up()
     goto(-750,375)
     color("FCFE43")
     circle(187.5,180)
