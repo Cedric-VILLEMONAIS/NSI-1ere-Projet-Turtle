@@ -29,7 +29,7 @@ def sunset() :
     begin_fill()
     color("#FCFE43")
     circle(375,180)
-    
+    end_fill()
     
 
 sunset()
