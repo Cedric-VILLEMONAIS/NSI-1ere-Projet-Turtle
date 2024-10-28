@@ -18,7 +18,7 @@ bgcolor(background_color[(background_color.index(user_hour))+1])
 # hideturtle()
 
 
-cloud()
+# cloud()
 
 
 def sunset() :
