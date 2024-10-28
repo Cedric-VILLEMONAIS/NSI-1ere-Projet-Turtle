@@ -33,32 +33,33 @@ def sunset() :
         fillcolor("#FCFE43")
         begin_fill()
         color("#FCFE43")
-        circle(150,180)
+        circle(100,180)
         end_fill()
     elif 18>=user_hour<19:
         fillcolor("#FFD668")
         begin_fill()
         color("#FFD668")
-        circle(100,180)
+        circle(70,180)
         end_fill()
     elif 19>=user_hour<20:
         fillcolor("#FFCF68")
         begin_fill()
         color("#FFCF68")
-        circle(50,180)
+        circle(40,180)
         end_fill()
     elif 20>=user_hour<21:
         fillcolor("#FFBF68")
         begin_fill()
         color("#FFBF68")
-        circle(30,180)
+        circle(20,180)
         end_fill()
     else:
         fillcolor("#FF9668")
         begin_fill()
         color("#FF9668")
-        circle(20,180)
+        circle(10,180)
         end_fill()
+    ht()
    
     
 
