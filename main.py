@@ -27,6 +27,9 @@ bgcolor(background_color[(background_color.index(user_hour))+1])
 def sunset() :
     # penup()
     goto(-750,375)
-    
+    color(yellow)
+    circle(187.5,180)
+    fillcolor(yellow)
+    begin_fill()
 
 done()
