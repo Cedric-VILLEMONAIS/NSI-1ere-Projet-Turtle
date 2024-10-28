@@ -28,5 +28,4 @@ Un coucher de soleil avec des nuages sur une plage avec la mer et des poissons e
 
 **Demander à l'utilisateur :** (utiliser numinput() : ex : numinput("Heure", "Quelle heure entre 18 et 22 ?", minval=18, maxval=22)
 -  Quelle heure entre par ex (18 et 22) et adapter en fonction la couleur d'arrière plan ainsi que la couleur du soleil
-- Si le temps est nuageux ou pas et adapter ainsi le nombre de nuages
-- Si c'est des petits ou gros nuages et ainsi adapter le random randint()
+- Si le temps est nuageux, si oui mettre des nuages en random et si non désactiver les nuages
