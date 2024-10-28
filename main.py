@@ -1,6 +1,6 @@
 # Importation des modules
 from turtle import *
-from random import randint
+from cloud import *
 
 # Demander à l'utilisateur à l'aide de la fonction numinput : 
 # l'heure et est-ce qu'il y a des nuages et enregistrer sa réponse dans une variable
@@ -17,10 +17,6 @@ background_color = [17, "#caf0f8", 18, "#90e0ef", 19, "#00b4d8", 20, "#0077b6", 
 bgcolor(background_color[(background_color.index(user_hour))+1])
 # hideturtle()
 
-def cloud() :
-    number = randint(0,10)
-    width
-    goto
 
 cloud()
 
