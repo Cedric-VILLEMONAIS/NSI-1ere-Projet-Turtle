@@ -28,9 +28,9 @@ cloud()
 def sunset() :
     # penup()
     goto(-750,375)
-    color(252,254,67)
+    color("FCFE43")
     circle(187.5,180)
-    fillcolor(252,254,67)
+    fillcolor("FCFE43")
     begin_fill()
 
 sunset()
