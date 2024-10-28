@@ -12,7 +12,6 @@ user_cloud = round(numinput("Nuages", "Est-ce que le temps est nuageux (0 non et
 title("NSI 1ere Projet Turtle par Nora TERRAL et Cédric VILLEMONAIS")
 setup(width=1820, height=980, startx=0, starty=0)
 screensize(1500, 750)
-goto(750,375)
 background_color = [17, "#caf0f8", 18, "#90e0ef", 19, "#00b4d8", 20, "#0077b6", 21, "#03045e"]
 bgcolor(background_color[(background_color.index(user_hour))+1])
 # hideturtle()
@@ -25,9 +24,9 @@ bgcolor(background_color[(background_color.index(user_hour))+1])
 def sunset() :
     # penup()
     goto(-750,375)
-    color(yellow)
+    color("yellow")
     circle(187.5,180)
-    fillcolor(yellow)
+    fillcolor("yellow")
     begin_fill()
 
 done()
