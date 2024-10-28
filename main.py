@@ -22,38 +22,42 @@ if user_cloud==1 : cloud()
 
 
 def sunset() :
+    """
+    Cette fonction permet de dessiner un soleil et de lui attribuer une couleur en fonction de l'heure choisie précédemment
+    """   
     up()
-    goto(-750,375)
+    goto(-200,100)
     down()
+    seth(90)
     if 17>=user_hour<18:
         fillcolor("#FCFE43")
         begin_fill()
         color("#FCFE43")
-        circle(375,180)
+        circle(150,180)
         end_fill()
     elif 18>=user_hour<19:
         fillcolor("#FFD668")
         begin_fill()
         color("#FFD668")
-        circle(300,180)
+        circle(100,180)
         end_fill()
     elif 19>=user_hour<20:
         fillcolor("#FFCF68")
         begin_fill()
         color("#FFCF68")
-        circle(250,180)
+        circle(50,180)
         end_fill()
     elif 20>=user_hour<21:
         fillcolor("#FFBF68")
         begin_fill()
         color("#FFBF68")
-        circle(200,180)
+        circle(30,180)
         end_fill()
     else:
         fillcolor("#FF9668")
         begin_fill()
         color("#FF9668")
-        circle(150,180)
+        circle(20,180)
         end_fill()
    
     
