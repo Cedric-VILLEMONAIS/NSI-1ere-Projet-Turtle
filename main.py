@@ -55,7 +55,6 @@ def sunset() :
         color("#FF9668")
         circle(150,180)
         end_fill()
-return
    
     
 
