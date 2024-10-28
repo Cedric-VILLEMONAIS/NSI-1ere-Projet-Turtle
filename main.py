@@ -29,4 +29,6 @@ def sunset() :
     fillcolor("yellow")
     begin_fill()
 
+sunset()
+
 done()
