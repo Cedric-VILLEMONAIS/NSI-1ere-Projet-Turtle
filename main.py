@@ -24,10 +24,13 @@ if user_cloud==1 : cloud()
 def sunset() :
     up()
     goto(-750,375)
-    color("FCFE43")
-    circle(187.5,180)
+    down()
     fillcolor("FCFE43")
     begin_fill()
+    color("#FCFE43")
+    circle(375,180)
+    
+    
 
 sunset()
 
