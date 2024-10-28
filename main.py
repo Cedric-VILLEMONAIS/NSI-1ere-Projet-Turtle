@@ -22,7 +22,7 @@ bgcolor(background_color[(background_color.index(user_hour))+1])
 
 
 def sunset() :
-    # penup()
+    up()
     goto(-750,375)
     color("FCFE43")
     circle(187.5,180)
