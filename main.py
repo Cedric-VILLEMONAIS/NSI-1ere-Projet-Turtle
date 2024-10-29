@@ -42,6 +42,9 @@ def star(x_start, x_end, y_start, y_end) :
         dot(4, "#ffffff")
 
 def cloud(x_start, x_end, y_start, y_end) :
+    """
+    cette fonction permet de faire apparaître des nuages en fonction de la volonté de l'utilisateur d'avoir un temps ensoleillé ou nuageux 
+    """
     number = randint(1,10)
     pendown()
     color("#cacaca")
