@@ -34,7 +34,7 @@ def cloud() :
     pendown()
     color("#cacaca")
     for i in range(number):
-        width = randint(1,5)
+        width = randint(1,3)
         teleport(randint(-750, 750), randint(0,375))
         origin = pos()
         begin_fill()
