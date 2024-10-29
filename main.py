@@ -70,7 +70,7 @@ def sea():
     
 def reflection():
     """
-    Cette fonction êrmet de représenter le reflet du soleil sur la mer
+    Cette fonction permet de représenter le reflet du soleil sur la mer
     """
     up()
     goto(-200,200)
