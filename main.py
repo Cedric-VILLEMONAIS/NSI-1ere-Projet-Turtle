@@ -24,18 +24,22 @@ screensize(1500, 750)
 background_color = [17, "#caf0f8", 18, "#90e0ef", 19, "#00b4d8", 20, "#0077b6", 21, "#03045e"]
 bgcolor(background_color[(background_color.index(user_hour))+1])
 # hideturtle()
+speed(0)
 
+def star(x_start, x_end, y_start, y_end) :
+    number = randint(1,50)
+    penup()
+    for i in range(number) :
+        teleport(randint(x_start, x_end), randint(y_start, y_end))
+        dot(4, "#ffffff")
 
-
-
-def cloud() :
+def cloud(x_start, x_end, y_start, y_end) :
     number = randint(1,10)
-    # hideurtle()
     pendown()
     color("#cacaca")
     for i in range(number):
         width = randint(1,3)
-        teleport(randint(-750, 750), randint(0,375))
+        teleport(randint(x_start, x_end), randint(y_start, y_end))
         origin = pos()
         begin_fill()
         circle(7.5*width,210)
@@ -103,7 +107,9 @@ def reflection():
     down()
    
     
-if user_cloud==1 : cloud()
+if user_cloud==1 : cloud(-750,750,0,375)
+if user_hour==20 or user_hour==21 : star(-750,750,0,375)
+
 sunset()
 sea()
 reflection()
