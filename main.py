@@ -58,7 +58,7 @@ def cloud(x_start, x_end, y_start, y_end) :
 
 def sunset() :
     """
-    Cette fonction permet de dessiner un soleil et de lui attribuer une couleur en fonction de l'heure choisie précédemment
+    Cette fonction permet de dessiner un soleil ainsi que de lui attribuer une couleur et de le déplacer en fonction de l'heure choisie précédemment
     """   
     up()
     x=0
