@@ -27,6 +27,14 @@ bgcolor(background_color[(background_color.index(user_hour))+1])
 speed(0)
 
 def star(x_start, x_end, y_start, y_end) :
+    """
+    Cette fonction permet de créer des étoiles
+    def factorielle(n):
+    :param x_start: int
+    :param x_end: int
+    :param y_start: int
+    :param y_end: int
+    """
     number = randint(1,50)
     penup()
     for i in range(number) :
