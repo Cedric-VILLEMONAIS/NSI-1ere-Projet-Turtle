@@ -123,14 +123,40 @@ def sea():
     goto(-750,200) #pointer vers le bas
     down()
     
-def reflection():
+def reflection(x_start, x_end, y_start, y_end):
     """
     Cette fonction permet de représenter le reflet du soleil sur la mer
+    :param x_start: int
+    :param x_end: int
+    :param y_start: int
+    :param y_end: int
     """
     up()
-    goto(-200,200)
+    goto(x,y)
     down()
-   
+    color(?) # créer variable soleil couleur pour la mettre la
+    fillcolor("")
+
+def waves(x_start, x_end, y_start, y_end):
+    """
+    Cette fonction permet d'ajouter des vagues sur la mer
+    :param x_start: int
+    :param x_end: int
+    :param y_start: int
+    :param y_end: int
+    """
+    up()
+    number=randit(50,100)
+    down()
+    color("") #faire plus clair que mer
+    fillcolor("")#faire plus sombre que mer
+    for i in range(number):
+        width = randit(3,6)#mis au pif -> adapter
+        teleport(randint(x_start, x_end), randint(y_start, y_end))
+        begin_fill()
+        goto(x*10,y*10) #mis au pif -> adapter
+        goto(x*10,y//10)
+        end_fill()
     
 
 
