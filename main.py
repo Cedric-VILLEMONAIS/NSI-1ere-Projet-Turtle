@@ -1,6 +1,5 @@
 # Importation des modules
 from turtle import *
-from cloud import *
 from random import randint
 from tkinter import messagebox
 
