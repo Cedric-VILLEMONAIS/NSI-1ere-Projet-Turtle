@@ -154,8 +154,9 @@ def waves(x_start, x_end, y_start, y_end):
         width = randit(3,6)#mis au pif -> adapter
         teleport(randint(x_start, x_end), randint(y_start, y_end))
         begin_fill()
-        goto(x*10,y*10) #mis au pif -> adapter
-        goto(x*10,y//10)
+        size=randit(5,10) #mis au pif -> adapter
+        goto(x*size,y*size) 
+        goto(x*size,y//size)
         end_fill()
     
 
