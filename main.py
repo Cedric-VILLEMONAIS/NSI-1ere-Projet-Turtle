@@ -1,13 +1,22 @@
 # Importation des modules
 from turtle import *
 from cloud import *
+from random import randint
+from tkinter import messagebox
 
 # Demander à l'utilisateur à l'aide de la fonction numinput : 
 # l'heure et est-ce qu'il y a des nuages et enregistrer sa réponse dans une variable
 # minval et maxval permettent de définir les valeurs minimales et maximales autorisées
 # On utilise round pour arrondir la valeur obtenue si l'utilisateur à donné une heure à virgule
-user_hour = round(numinput("Heure", "Quelle heure entre 17 et 21 h ?", minval=17, maxval=21))
-user_cloud = round(numinput("Nuages", "Est-ce que le temps est nuageux (0 non et 1 oui)?", minval=0, maxval=1))
+
+messagebox.showwarning(title="Attention", message="Pour un fonctionnement optimal veuillez utiliser une résolution d'affichage suppérieure ou égale à 1920 * 1080 pixels avec une mise à l'échelle de 100%")
+
+# user_hour = round(numinput("Heure", "Quelle heure entre 17 et 21 h ?", minval=17, maxval=21))
+# user_cloud = round(numinput("Nuages", "Est-ce que le temps est nuageux (0 non et 1 oui)?", minval=0, maxval=1))
+
+# For developpement :
+user_hour = 21
+user_cloud = 1
 
 # Configurer la fenêtre d'affichage
 title("NSI 1ere Projet Turtle par Nora TERRAL et Cédric VILLEMONAIS")
@@ -18,8 +27,26 @@ bgcolor(background_color[(background_color.index(user_hour))+1])
 # hideturtle()
 
 
-if user_cloud==1 : cloud()
 
+
+def cloud() :
+    number = randint(1,10)
+    # hideurtle()
+    pendown()
+    color("#cacaca")
+    for i in range(number):
+        width = randint(1,5)
+        teleport(randint(-750, 750), randint(0,375))
+        origin = pos()
+        begin_fill()
+        circle(7.5*width,210)
+        right(140)
+        while pos()[1] > origin[1] :
+            circle(randint(5,9)*width,200)
+            right(190)
+        goto(origin)
+        end_fill()
+        setheading(0)
 
 def sunset() :
     """
@@ -77,7 +104,7 @@ def reflection():
     down()
    
     
-
+if user_cloud==1 : cloud()
 sunset()
 sea()
 reflection()
