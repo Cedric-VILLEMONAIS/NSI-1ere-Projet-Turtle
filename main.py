@@ -181,10 +181,9 @@ def waves(x_start, x_end, y_start, y_end):
         end_fill()
     
 
-
+if user_hour==20 or user_hour==21 : star(-750,750,0,375)
 sunset()
 if user_cloud==1 : cloud(-750,750,0,375)
-if user_hour==20 or user_hour==21 : star(-750,750,0,375)
 sea()
 reflection()
 
