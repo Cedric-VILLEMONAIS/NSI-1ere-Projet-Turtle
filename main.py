@@ -19,6 +19,10 @@ screensize(1500, 750)
 background_color = [17, "#caf0f8", 18, "#90e0ef", 19, "#00b4d8", 20, "#0077b6", 21, "#03045e"]
 bgcolor(background_color[(background_color.index(user_hour))+1])
 # hideturtle()
+def teleport(x,y):
+    penup()
+    goto(x,y)
+    pendown()
 
 def star(x_start, x_end, y_start, y_end) :
     """
@@ -158,33 +162,37 @@ def reflection(x_start, x_end, y_start, y_end):
     color(?) # créer variable soleil couleur pour la mettre la
     fillcolor("")
 
-def waves(x_start, x_end, y_start, y_end):
+def waves(x_start, x_end, y_start, y_end): #marche paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaas
     """
-    Cette fonction permet d'ajouter des vagues sur la mer
+    Cette fonction permet de créer des vagues
+    def factorielle(n):
     :param x_start: int
     :param x_end: int
     :param y_start: int
     :param y_end: int
     """
-    up()
-    number=randit(50,100)
-    down()
-    color("") #faire plus clair que mer
-    fillcolor("")#faire plus sombre que mer
-    for i in range(number):
-        width = randit(3,6)#mis au pif -> adapter
+    number = randint(20,50)
+    penup()
+    for i in range(number) :
+        width = randint(1,3)
+        up()
         teleport(randint(x_start, x_end), randint(y_start, y_end))
-        begin_fill()
-        size=randit(5,10) #mis au pif -> adapter
-        goto(x*size,y*size) 
-        goto(x*size,y//size)
-        end_fill()
+        color("#154360")
+        down()
+        setheading(135)
+        forward(6)
+        circle(10,180)
+        setheading(205)
+        forward(6)
     
 
 if user_hour==20 or user_hour==21 : star(-750,750,0,375)
 sunset()
-if user_cloud==1 : cloud(-750,750,0,375)
 sea()
+if user_cloud==1 : cloud(-750,750,0,375)
+if user_hour==17 or user_hour==18 : waves(-750,750,0,-300)
+if user_hour==19 or user_hour==20 : waves(-750,750,0,-250)
+if user_hour==21 : waves(-750,750,0,-200)
 reflection()
 
 ht()
