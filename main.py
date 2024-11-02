@@ -23,7 +23,7 @@ if user_hour==21 : fish(-750,750,-200,0)
 if user_hour==17 or user_hour==18 : waves(-750,750,-300,0)
 if user_hour==19 or user_hour==20 : waves(-750,750,-250,0)
 if user_hour==21 : waves(-750,750,-200,0)
-reflection()
+# reflection()
 
 ht()
 
