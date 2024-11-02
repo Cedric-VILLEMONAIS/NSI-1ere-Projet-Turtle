@@ -6,7 +6,7 @@ def sunset() :
     """   
     up()
     x=0
-    y=100
+    y=0
     seth(90)
     if 17>=user_hour<18:
         x=-80
