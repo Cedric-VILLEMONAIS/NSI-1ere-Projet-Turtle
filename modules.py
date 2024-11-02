@@ -2,6 +2,7 @@
 from turtle import *
 from random import randint
 from tkinter import messagebox
+from time import sleep
 
 def teleport(x,y):
     penup()
