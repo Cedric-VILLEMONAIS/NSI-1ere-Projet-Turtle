@@ -212,6 +212,7 @@ def fish(x_start, x_end, y_start, y_end):
         left(60)
         forward(3)
 
+
 if user_hour==20 or user_hour==21 : star(-750,750,0,375)
 sunset()
 sea()
