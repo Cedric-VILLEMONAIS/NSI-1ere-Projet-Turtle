@@ -19,6 +19,7 @@ screensize(1500, 750)
 background_color = [17, "#caf0f8", 18, "#90e0ef", 19, "#00b4d8", 20, "#0077b6", 21, "#03045e"]
 bgcolor(background_color[(background_color.index(user_hour))+1])
 # hideturtle()
+# speed(0)
 def teleport(x,y):
     penup()
     goto(x,y)
@@ -159,7 +160,7 @@ def reflection(x_start, x_end, y_start, y_end):
     up()
     goto(x,y)
     down()
-    color(?) # créer variable soleil couleur pour la mettre la
+    color("") # créer variable soleil couleur pour la mettre la
     fillcolor("")
 
 def waves(x_start, x_end, y_start, y_end): #marche paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaas
@@ -202,8 +203,8 @@ def fish(x_start, x_end, y_start, y_end):
         teleport(randint(x_start, x_end), randint(y_start, y_end))
         color("#424949")
         down()
-        setheading(randit(0,360))
-        dot(randit(4,6))
+        setheading(randint(0,360))
+        dot(randint(4,6))
         right(60)
         forward(3)
         left(60)
