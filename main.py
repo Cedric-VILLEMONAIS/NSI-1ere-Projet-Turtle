@@ -34,7 +34,7 @@ elif user_hour==19 or user_hour==20 : waves(-750,750,-250,0)
 elif user_hour==21 : waves(-750,750,-200,0)
 # reflection()
 
-
+palmtree()
 bird(-750,750,0,375)
 
 
