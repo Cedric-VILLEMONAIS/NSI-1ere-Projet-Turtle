@@ -1,4 +1,4 @@
-from turtle import *
+from modules import *
 
 def sea(x_start, x_end, y_start, y_end) :
     """
