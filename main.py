@@ -184,12 +184,40 @@ def waves(x_start, x_end, y_start, y_end): #marche paaaaaaaaaaaaaaaaaaaaaaaaaaaa
         circle(10,180)
         setheading(205)
         forward(6)
-    
+
+def fish(x_start, x_end, y_start, y_end):
+    """
+    Cette fonction permet de créer des poissons
+    def factorielle(n):
+    :param x_start: int
+    :param x_end: int
+    :param y_start: int
+    :param y_end: int
+    """
+    number = randint(5,10)
+    penup()
+    for i in range(number) :
+        width = randint(1,3)
+        up()
+        teleport(randint(x_start, x_end), randint(y_start, y_end))
+        color("#424949")
+        down()
+        setheading(randit(0,360))
+        dot(randit(4,6))
+        right(60)
+        forward(3)
+        left(60)
+        forward(3)
+        left(60)
+        forward(3)
 
 if user_hour==20 or user_hour==21 : star(-750,750,0,375)
 sunset()
 sea()
 if user_cloud==1 : cloud(-750,750,0,375)
+if user_hour==17 or user_hour==18 : fish(-750,750,0,-300)
+if user_hour==19 or user_hour==20 : fish(-750,750,0,-250)
+if user_hour==21 : fish(-750,750,0,-200)
 if user_hour==17 or user_hour==18 : waves(-750,750,0,-300)
 if user_hour==19 or user_hour==20 : waves(-750,750,0,-250)
 if user_hour==21 : waves(-750,750,0,-200)
