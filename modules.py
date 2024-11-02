@@ -32,3 +32,10 @@ def init() :
 
 init_var = init()
 user_hour, user_cloud = init_var[0], init_var[1]
+
+color("#000000")
+pensize(1)
+teleport(-750,375)
+goto(750,375)
+goto(750,-375)
+goto(-750,-375)
