@@ -23,6 +23,8 @@ elif user_hour==21 : sea(-750,750,-200,0)
 if user_hour==17 or user_hour==18 : beach(-750,750,-375,-300)
 elif user_hour==19 or user_hour==20 : beach(-750,750,-375,-250)
 elif user_hour==21 : beach(-750,750,-375,-200)
+  
+ecume()
 
 if user_cloud==1 : cloud(-750,750,0,375)
 
