@@ -26,17 +26,17 @@ elif user_hour==19 or user_hour==20 : beach(-750,750,-375,-250)
 elif user_hour==21 : beach(-750,750,-375,-200)
   
 ecume()
+refléction()
 
 if user_cloud==1 : cloud(-750,750,0,375)
 
-if user_hour==17 or user_hour==18 : fish(-750,750,-300,-10)
-elif user_hour==19 or user_hour==20 : fish(-750,750,-250,-10)
-elif user_hour==21 : fish(-750,750,-200,-10)
+if user_hour==17 or user_hour==18 : fish(-750,750,-270,-10)
+elif user_hour==19 or user_hour==20 : fish(-750,750,-230,-10)
+elif user_hour==21 : fish(-750,750,-180,-10)
 
-if user_hour==17 or user_hour==18 : waves(-750,750,-300,-10)
-elif user_hour==19 or user_hour==20 : waves(-750,750,-250,-10)
-elif user_hour==21 : waves(-750,750,-200,0)
-# reflection()
+if user_hour==17 or user_hour==18 : waves(-750,750,-270,-10)
+elif user_hour==19 or user_hour==20 : waves(-750,750,-230,-10)
+elif user_hour==21 : waves(-750,750,-180,-10)
 
 palmtree()
 bird(-750,750,0,375)
