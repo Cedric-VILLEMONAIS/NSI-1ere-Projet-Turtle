@@ -18,7 +18,7 @@ def sunset() :
         circle(100,180)
         end_fill()
     elif 18>=user_hour<19:
-        x=-0
+        x=-200
         goto(x,y)
         down()
         fillcolor("#FFD668")
