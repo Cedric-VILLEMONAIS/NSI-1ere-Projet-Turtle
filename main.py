@@ -26,7 +26,7 @@ elif user_hour==19 or user_hour==20 : beach(-750,750,-375,-250)
 elif user_hour==21 : beach(-750,750,-375,-200)
   
 ecume()
-refléction()
+reflection()
 
 if user_cloud==1 : cloud(-750,750,0,375)
 
