@@ -20,7 +20,7 @@ def ecume():
             goto(randint(xcor()+5,xcor()+10),randint(ycor(),ycor()+2))
         else:
             goto(randint(xcor()+5,xcor()+10),randint(ycor()-2,ycor()+2))
-    goto(750,y+30)
+    goto(750,y+32)
     y=ycor()
     while xcor()> -750:
         if ycor()>=y+15:
