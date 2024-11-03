@@ -10,6 +10,7 @@ from waves import *
 from fish import *
 from bird import *
 from beach import *
+from palmtree import *
 
 
 if user_hour==20 or user_hour==21 : star(-750,750,0,375)
