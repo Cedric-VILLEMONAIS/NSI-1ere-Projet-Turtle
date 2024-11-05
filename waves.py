@@ -1,6 +1,6 @@
 from modules import *
 
-def waves(x_start, x_end, y_start, y_end): #marche paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaas
+def waves(x_start, x_end, y_start, y_end): 
     """
     Cette fonction permet de créer des vagues
     def factorielle(n):
