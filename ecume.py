@@ -1,6 +1,6 @@
 from modules import *
 
-def ecume():
+def ecume(): #on crée une fonction "ecume" pour dessiner de l'écume
     """
     Cette fonction permet de dessiner de l'écume
     """
