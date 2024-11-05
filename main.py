@@ -32,7 +32,7 @@ ecume() #on fait apparaître l'écume
 reflection() #on fait apparaître la réflection du soleil sur l'eau
 
 #on fait apparaître les nuages en fonction de la réponse de l'utilisateur
-if user_cloud==1 : cloud(-750,750,0,375)
+if user_cloud==1 : cloud(-710,750,20,375)
 
 #on fait apparaître les poissons en fonction de la marée, c'est-à-dire, en fonction de l'heure de la journée
 if user_hour==17 or user_hour==18 : fish(-750,750,-270,-10)
