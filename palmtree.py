@@ -2,14 +2,14 @@ from modules import *
 
 
 
-def palmtree():
+def palmtree(): #on crée la fonction "palmtree" pour dessiner un palmier
     """
-    Cette fonxtion permet de dessiner un palmier à droite du dessin
+    Cette fonction permet de dessiner un palmier à droite du dessin
     """
-    up()
-    width = randint(1,3)
-    goto(750,-375)
-    if user_hour==17 or user_hour==18:
+    up() #on lève le stylet
+    width = randint(1,3) #on met l'épaisseur du stylet à un nombre aléatoire entre 1 et 3
+    goto(750,-375) #on déplace la tortue, avec le stylet en position écriture, au point de coordonnées 750 pour l'axe des abcisses, x, et -375 pour l'axe des ordonnées, y
+    if user_hour==17 or user_hour==18: #on 
         fillcolor("#AA7B6B")
     elif user_hour==19 or user_hour==20:
         fillcolor("#6D4C41")
