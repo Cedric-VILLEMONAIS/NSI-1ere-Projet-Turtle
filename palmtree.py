@@ -1,6 +1,6 @@
 from modules import *
 
-def palmtree(): #on crée la fonction "palmtree" pour dessiner un palmier
+def palmtree(): #on crée la fonction "palmtree()" pour dessiner un palmier
     """
     Cette fonction permet de dessiner un palmier à droite du dessin
     """
