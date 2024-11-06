@@ -5,7 +5,9 @@
 <a href="https://github.com/Cedric-VILLEMONAIS/Python-Turtle-Documentation" target="_blank">Ma dcumentation</a>
 
 ## Description du projet :
+### Analyse du travail :
 
+### Amélioration possibles :
 
 ## Répartition des tâches réalisées :
 ### Cédric :
