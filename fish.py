@@ -1,4 +1,4 @@
-from modules import *
+from modules import * # Importation du fichier modules.py
 
 def fish(x_start, x_end, y_start, y_end): #on crée une fonction "fish()" pour dessiner des poissons
     """
