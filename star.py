@@ -12,5 +12,8 @@ def star(x_start, x_end, y_start, y_end) :
     number = randint(1,50)
     penup()
     for i in range(number) :
-        teleport(randint(x_start, x_end), randint(y_start, y_end))
+        try:
+            teleport(randint(x_start, x_end), randint(y_start, y_end))
+        except:
+            my_teleport(randint(x_start, x_end), randint(y_start, y_end))
         dot(4, "#ffffff")

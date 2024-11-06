@@ -7,7 +7,7 @@ from random import randint
 from tkinter import messagebox
 
 # création de la fonction teleport (teleport est inclus dans turtle mais certaines versions de python n'ont pas cette fonction)
-def teleport(x,y):
+def my_teleport(x,y):
     """
     Fonction qui permet de déplacer la tortue sans que le stylo écrive vers l'endroit précisé.
     :param x: int
@@ -24,7 +24,7 @@ def init() :
     # On utilise round pour arrondir la valeur obtenue si l'utilisateur à donné une heure à virgule
 
 
-    messagebox.showwarning(title="Attention", message="Pour un fonctionnement optimal veuillez utiliser une résolution d'affichage suppérieure ou égale à 1920 * 1080 pixels avec une mise à l'échelle de 100%")
+    messagebox.showwarning(title="Attention", message="Pour un fonctionnement optimal veuillez utiliser une résolution d'affichage suppérieure à 1500 * 750 pixels")
     user_hour = round(numinput("Heure", "Quelle heure entre 17 et 21 h ?", minval=17, maxval=21))
     user_cloud = round(numinput("Nuages", "Est-ce que le temps est nuageux (0 non et 1 oui)?", minval=0, maxval=1))
 

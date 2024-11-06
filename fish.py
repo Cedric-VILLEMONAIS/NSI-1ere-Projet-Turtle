@@ -14,7 +14,10 @@ def fish(x_start, x_end, y_start, y_end): #on crée une fonction "fish()" pour d
     for i in range(number) : #on créer la boucle for qui va s'exécuter number fois, c'est-à-dire, le nombre aléatoire entre 5 et 10 affecter à la variable "number"
         width = randint(1,3) #on modifie l'épaisseur du stylet avec pour épaisseur un nombre aléatoire entre 1 et 3
         up() #on relève le stylet
-        teleport(randint(x_start, x_end), randint(y_start, y_end)) #on déplace la tortue (sans tracer de trait) au point de coordonnées: le nombre sur l'axe des abcisses qui vaut un nombre aléatoire entre "x_start" et "x_end"; et le nombre sur l'axe des ordonnées qui vaut un nombre aléatoire entre y_start et y_end 
+        try:
+            teleport(randint(x_start, x_end), randint(y_start, y_end)) #on déplace la tortue (sans tracer de trait) au point de coordonnées: le nombre sur l'axe des abcisses qui vaut un nombre aléatoire entre "x_start" et "x_end"; et le nombre sur l'axe des ordonnées qui vaut un nombre aléatoire entre y_start et y_end 
+        except:
+            my_teleport(randint(x_start, x_end), randint(y_start, y_end)) #on déplace la tortue (sans tracer de trait) au point de coordonnées: le nombre sur l'axe des abcisses qui vaut un nombre aléatoire entre "x_start" et "x_end"; et le nombre sur l'axe des ordonnées qui vaut un nombre aléatoire entre y_start et y_end 
         pencolor("#646969") #on modifie la couleur du trait du stylo à la couleur "gris"
         fillcolor("#646969") #on sélectionne la couleur "gris" pour le remplissage 
         down() #on baisse le stylet; le stylet est en position d'écriture

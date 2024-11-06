@@ -39,7 +39,10 @@ def palmtree(): #on crée la fonction "palmtree()" pour dessiner un palmier
     pencolor("#145A32") #on met le trait du stylet en noir
     down() #on reprend le dessin
     begin_fill() #on active le mode remplissage
-    teleport(730,100) #on déplace la tortue au point d'abcisse 730 et d'ordonnée 100 en interrompant le dessin
+    try:
+        teleport(730,100) #on déplace la tortue au point d'abcisse 730 et d'ordonnée 100 en interrompant le dessin
+    except:
+        my_teleport(730,100)
     setheading(130) #on oriente la tortue à 130 degrés
     forward(150) #on fait avancer la tortue de 150 pixels 
     left(30) #on oriente la tortue de 30 degrés à gauche
@@ -50,14 +53,20 @@ def palmtree(): #on crée la fonction "palmtree()" pour dessiner un palmier
     y=ycor() #on crée la variable y à laquelle on affecte le nombre des ordonnées de la position actuelle de la tortue
     for i in range (6): #on répète 6 fois grâce à la boucle "for"
         forward(30) #on fait avancer la tortue de 30 pixels
-        teleport(x,y) #on déplace la tortue au point de coordonnée ayant pour abcisse la variable x et pour ordonnée la variable y en interrompant le dessin pour cette action uniquement
+        try:
+            teleport(x,y) #on déplace la tortue au point de coordonnée ayant pour abcisse la variable x et pour ordonnée la variable y en interrompant le dessin pour cette action uniquement
+        except:
+            my_teleport(x,y)
         x=x+20 #on incrémente 20 à la variable x
     goto(730,100) #on déplace la tortue au point d'abcisse 730 et à l'ordonnée 100 sans interrompre le dessin
     end_fill() #on désactive le mode remplisage 
     angle= 165 #on crée une variable angle à laquelle on affecte 165
     for i in range (2): #on répète 2 fois le programme ci-après à l'aide de la boucle "for"
         begin_fill() #on active le mode remplissage
-        teleport(730,100) #on déplace la tortue au point d'abcisse 730 et à l'ordonnée 100 sans modifier le dessin
+        try:
+            teleport(730,100) #on déplace la tortue au point d'abcisse 730 et à l'ordonnée 100 sans modifier le dessin
+        except:
+            my_teleport(730,100)
         setheading(angle) #on oriente la tortue de "angle" degrés donc du nombre constituant la variable angle
         forward(150) #on fait avancer la tortue de 150 pixels
         left(30) #on oriente la tortue de 30 degrés à gauche
@@ -68,7 +77,10 @@ def palmtree(): #on crée la fonction "palmtree()" pour dessiner un palmier
         y=ycor() #on crée la variable y à laquelle on affecte le nombre des ordonnées de la position actuelle de la tortue
         while x<700: #on répète le programme dans la boucle "while" tant que le nombre affecter à la variable x est inférieur à 700
             forward(30) #on fait avancer la tortue de 30 pixels
-            teleport(x,y) #on déplace la tortue au point d'abcisse étant le nombre affecté à la variable "x"; et d'ordonnée étant le nombre affecté à la variable "y"
+            try:
+                teleport(x,y) #on déplace la tortue au point d'abcisse étant le nombre affecté à la variable "x"; et d'ordonnée étant le nombre affecté à la variable "y"
+            except:
+                my_teleport(x,y)
             x=x+20 #on incrémente 20 à la variable "x"
         goto(730,100) #on déplace la tortue au point d'abcisse 730 et d'ordonnée 100 sans interrompre le dessin
         angle=angle+30 #on incrémente 30 à la variable "angle"

@@ -14,7 +14,10 @@ def cloud(x_start, x_end, y_start, y_end) :
     color("#cacaca")
     for i in range(number):
         width = randint(1,3)
-        teleport(randint(x_start, x_end), randint(y_start, y_end))
+        try:
+            teleport(randint(x_start, x_end), randint(y_start, y_end))
+        except:
+            my_teleport(randint(x_start, x_end), randint(y_start, y_end))
         origin = pos()
         begin_fill()
         circle(7.5*width,210)
