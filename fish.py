@@ -1,6 +1,6 @@
 from modules import *
 
-def fish(x_start, x_end, y_start, y_end): #on crée une fonction "fish" pour dessiner des poissons
+def fish(x_start, x_end, y_start, y_end): #on crée une fonction "fish()" pour dessiner des poissons
     """
     Cette fonction permet de créer des poissons
     def factorielle(n):
