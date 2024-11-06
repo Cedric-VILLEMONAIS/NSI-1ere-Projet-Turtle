@@ -26,6 +26,7 @@
 - Création de la fonction ```cloud()``` qui dessine des nuages à des positions et tailles aléatoires
 - Création de la fonction ```beach()``` qui dessine la plage aux coordonnées données
 - Création de la fonction ```bird()``` qui est une annimation qui fait voler des oiseax
+- Création de la fonction ```bird()``` qui est une annimation qui fait voler des oiseax
 - Documentation des fichiers cloud.py, init.py, beach.py et bird.py
 - Documentation de toutes les fonctions du code avec """ """
 

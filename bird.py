@@ -26,7 +26,7 @@ def bird(x_start, x_end, y_start, y_end) :
     bird_var.penup()
     bird_var.speed(1)
     # Création d'une boucle qui va créer 10 oiseaux
-    for i in range(10) :
+    for i in range(5) :
         # Téléportation de l'oiseau à x : valeur donnée -200 pour que l'oiseau de départ ne soit pas visible et à un y aléatoire dans la zone donnée
         bird_var.teleport(x_start-200, randint(y_start, y_end))
         # Tant que la tortue n'a pas dépassé le x de fin donné + 200 la tortue change de "costume" puis avance de 25 pixels
