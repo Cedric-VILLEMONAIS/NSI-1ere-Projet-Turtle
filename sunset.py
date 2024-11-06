@@ -1,4 +1,4 @@
-from modules import *
+from modules import * # Importation du fichier modules.py
 
 def sunset() : #on crée une fonction "sunset()" pour dessiner un soleil différent en fonction de l'heure choisie par l'utilisateur pour faire un soleil couchant plus ou moins prononcé en fonction de l'heure
     """
