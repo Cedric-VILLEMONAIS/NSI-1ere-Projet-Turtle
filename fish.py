@@ -2,12 +2,16 @@ from modules import *
 
 def fish(x_start, x_end, y_start, y_end): #on crée une fonction "fish()" pour dessiner des poissons
     """
-    Cette fonction permet de créer des poissons
-    def factorielle(n):
-    :param x_start: int
-    :param x_end: int
-    :param y_start: int
-    :param y_end: int
+    Cette fonction permet de créer des poissons à des positions aléatoires aux coordonnées données
+    Arguments :
+        :param x_start: int
+            Coordonnée x de départ pour le dessin
+        :param x_end: int
+            Coordonnée x de fin pour le dessin
+        :param y_start: int
+            Coordonnée y de départ pour le dessin
+        :param y_end: int
+            Coordonnée y de fin pour le dessin
     """
     number = randint(5,10) #on créer la variable "number" à laquelle on affecte un nombre choisit aléatoirement entre 5 et 10
     penup() #on relève le stylet

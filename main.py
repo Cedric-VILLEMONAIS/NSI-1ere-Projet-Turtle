@@ -1,4 +1,4 @@
-#on importe des différents fichiers les fonctions suivantes
+# Importation des différents fichiers
 from modules import *
 from cloud import *
 from star import *

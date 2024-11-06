@@ -2,12 +2,16 @@ from modules import *
 
 def star(x_start, x_end, y_start, y_end) :
     """
-    Cette fonction permet de créer des étoiles
-    def factorielle(n):
-    :param x_start: int
-    :param x_end: int
-    :param y_start: int
-    :param y_end: int
+    Cette fonction permet de créer des étoiles à des positions aléatoires aux coordonnées données
+    Arguments :
+        :param x_start: int
+            Coordonnée x de départ pour le dessin
+        :param x_end: int
+            Coordonnée x de fin pour le dessin
+        :param y_start: int
+            Coordonnée y de départ pour le dessin
+        :param y_end: int
+            Coordonnée y de fin pour le dessin
     """
     number = randint(1,50)
     penup()

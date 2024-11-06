@@ -2,12 +2,16 @@ from modules import *
 
 def waves(x_start, x_end, y_start, y_end): #on crée la fonction "waves()" pour dessiner des vagues sur la mer
     """
-    Cette fonction permet de créer des vagues
-    def factorielle(n):
-    :param x_start: int
-    :param x_end: int
-    :param y_start: int
-    :param y_end: int
+    Cette fonction permet de créer des vagues à des postions aléatoires aux coordonnées données
+    Arguments :
+        :param x_start: int
+            Coordonnée x de départ pour le dessin
+        :param x_end: int
+            Coordonnée x de fin pour le dessin
+        :param y_start: int
+            Coordonnée y de départ pour le dessin
+        :param y_end: int
+            Coordonnée y de fin pour le dessin
     """
     number = randint(20,50) #on choisit un numéro au hasard entre 20 et 50 que l'on affecte dans la variable "number" que l'on crée au même moment
     for i in range(number) : #on fait le programme autant de fois que la valeur de la variable "number"
