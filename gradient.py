@@ -22,3 +22,4 @@ def gradient(): # on crée une fonction"gradient" pour faire un dégradé
     #la fonction n'est pas terminée
     end_fill() #désactiver le mode remplissage
 
+# Mon idée de code (Cédric) pour le dégradé est de le créer avant le soleil en faisant plein de demi cercles avec une boucle for et d'une fonction qui convertit le code coleur hexadécimal en rgb et la boucle for augmente petit à petit le code rgb vers le code souhaité tout en augmentant la taille des cercles et donc avec tous ces cercles très proches on fait un dégradé
