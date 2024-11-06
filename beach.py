@@ -8,10 +8,7 @@ def beach(x_start, x_end, y_start, y_end) :
     :param y_start: int
     :param y_end: int
     """
-    try:
-        teleport(x_start,y_start)
-    except:
-        my_teleport(x_start,y_start)
+    teleport(x_start,y_start)
     color("#eabb75")
     fillcolor("#eabb75")
     begin_fill()

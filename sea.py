@@ -8,10 +8,7 @@ def sea(x_start, x_end, y_start, y_end) : #on crée une fonction "sea()" pour de
     :param y_start: int
     :param y_end: int
     """
-    try:
-        teleport(x_start,y_start) #on déplace la tortue, en interrompant le dessin pour cette action, au point d'abcisse "x_start" (défini au moment de l'exécution du programme) et d'ordonnée "y_start" (défini au moment de l'exécution du programme)
-    except:
-        my_teleport(x_start,y_start)
+    teleport(x_start,y_start) #on déplace la tortue, en interrompant le dessin pour cette action, au point d'abcisse "x_start" (défini au moment de l'exécution du programme) et d'ordonnée "y_start" (défini au moment de l'exécution du programme)
     color("#21618C") #on sélectionne la couleur bleu foncé pour les traits
     fillcolor("#21618C") #on sélectione également la couleur bleu foncé pour le mode remplissage
     begin_fill() #on active le mode remplissage

@@ -7,20 +7,11 @@ def ecume(): #on crée une fonction "ecume()" pour dessiner de l'écume
     color("#F0F3F4")#on affecte du blanc comme couleur
     begin_fill() #on active le mode remplissage
     if user_hour==17 or user_hour==18 : #on réalise la condition: si l'heure choisie par l'utilisateur vaut soit 17, soit 18:
-        try:
-            teleport(-750,-320) #on déplace la tortue au point de coordonnées: l'axe des abcisses, x, qui vaut -750 et l'axe des ordonnées, y, qui vaut -320; sans que le stylet ne dessine entre sa position actuelle et sa future position
-        except:
-            my_teleport(-750,-320)
+        teleport(-750,-320) #on déplace la tortue au point de coordonnées: l'axe des abcisses, x, qui vaut -750 et l'axe des ordonnées, y, qui vaut -320; sans que le stylet ne dessine entre sa position actuelle et sa future position
     elif user_hour==19 or user_hour==20 : #on réalise la suite de la condition: si l'heure choisie par l'utilisateur vaut soit 19, soit 20:
-        try:
-            teleport(-750,-270) #on déplace la tortue au point de coordonnées: l'axe de abcisses, x, qui vaut -750 et l'axe des ordonnées, y, qui vaut -270; sans que le stylet ne dessine un trait entre sa position actuelle et sa future position
-        except:
-            my_teleport(-750,-270)
+        teleport(-750,-270) #on déplace la tortue au point de coordonnées: l'axe de abcisses, x, qui vaut -750 et l'axe des ordonnées, y, qui vaut -270; sans que le stylet ne dessine un trait entre sa position actuelle et sa future position
     else: #on réalise la fin de la condition: sinon:
-        try:
-            teleport(-750,-220) #on déplace la tortue au point de coordonnées: l'axe des abcisses, x, qui vaut -750 et l'axe des ordonnées, y,qui vaut -220; sans que le stylet ne dessine un trait entre sa position actuelle et sa future position
-        except:
-            my_teleport(-750,-220)    
+        teleport(-750,-220) #on déplace la tortue au point de coordonnées: l'axe des abcisses, x, qui vaut -750 et l'axe des ordonnées, y,qui vaut -220; sans que le stylet ne dessine un trait entre sa position actuelle et sa future position
     y=ycor() #on créer une variable "y" à laquelle on assigne la valeur "ycor()", qui est la position actuelle de la tortue sur l'axe des ordonnées uniquement
     while xcor()<750: #on effectue une boucle "while" jusqu'à ce que "xcor()", donc la position actuelle de la tortue sur l'axe des abcisses, soit inférieur à 750
         if ycor()>=y+15: #on réalise la condition: si la position actuelle de la tortue sur l'axe des ordonnées, ycor(), est supérieure ou égale à la variable "y" à laquelle on ajoute 15:
