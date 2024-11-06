@@ -1,12 +1,11 @@
 from modules import *
 
-def reflection():
+def reflection(): #on crée la fonction "reflection" pour dessiner la réflection du soleil sur la mer
     """
     Cette fonction permet de dessiner le reflet du soleil sur l'eau
     """
-    up()
-    down()
-    if 17>=user_hour<18:
+    down() #on baisse le stylet pour qu'il puisse modifier le dessin
+    if 17>=user_hour<18: #on effectue la condition
         teleport(-230,-3)
         color("#FCFE43")
         y=-170
