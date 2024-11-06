@@ -1,6 +1,6 @@
 from modules import *
 
-def reflection(): #on crée la fonction "reflection" pour dessiner la réflection du soleil sur la mer
+def reflection(): #on crée la fonction "reflection()" pour dessiner la réflection du soleil sur la mer
     """
     Cette fonction permet de dessiner le reflet du soleil sur l'eau
     """
