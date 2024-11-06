@@ -1,5 +1,7 @@
+# Importation du fichier modules.py
 from modules import *
 
+# Création de la fonction star()
 def star(x_start, x_end, y_start, y_end) :
     """
     Cette fonction permet de créer des étoiles à des positions aléatoires aux coordonnées données

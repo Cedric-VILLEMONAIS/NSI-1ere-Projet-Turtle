@@ -1,5 +1,7 @@
+# Importation du fichier modules.py
 from modules import *
 
+# Création de la fonction cloud()
 def cloud(x_start, x_end, y_start, y_end) :
     """
     Cette fonction permet de faire apparaître des nuages à des tailles et positions aléatoires aux coordonnées données
