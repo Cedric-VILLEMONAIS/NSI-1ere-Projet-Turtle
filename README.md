@@ -32,7 +32,17 @@
 
 
 ### Nora :
-- Création des fonctions: ```sunset()```, ```sea()```, ```fish()```, ```waves()```, ```palmtree()```, ```ecume()```,
+- idée du dessin 
+- Création de la fonction: ```sunset()``` qui dessine un soleil différent en fonction de l'heure choisie par l'utilisateur pour simuler un coucher de soleil  
+- Création de la fonction: ```sea()``` qui dessine la mer aux coordonnées données suivant l'heure choisie par l'utilisateur
+- Création de la fonction: ```fish()``` qui dessine des poissons à des positions, orientations aléatoires ainsi que la taille étant légèrement aléatoire pour créer un effet de profondeur
+- Création de la fonction: ```waves()``` qui dessine des vagues à des positions aléatoires et avec une épaisseur aléatoire
+- Création de la fonction: ```palmtree()``` qui dessine un palmier avec des couleurs différentes en fonction de l'heure choisie par l'utilisateur
+- Création de la fonction: ```ecume()``` qui dessine une écume aux coordonnées données et à des proportions aléatoires pour faire un effet mouvementé
+- Création de la fonction: ```reflection()``` qui dessine la réflection du soleil sur la mer suivant l'heure 
 - A essayé de créer une fonction ```gradient()``` pour faire des dégradés
-- A commenté les fonctions: ```sunset()```, ```sea()```, ```fish()```, ```waves()```, ```palmtree()```, ```ecume()```, ```reflection()``` et le fichier main
+- création des fichiers sunset.py, sea.py, fish.py, waves.py, palmtree.py, ecume.py, reflection.py, gradient.py
+- Documentation des fichiers sunset.py, sea.py, fish.py, waves.py, palmtree.py, ecume.py, reflection.py, gradient.py et le fichier main
+
+
 
