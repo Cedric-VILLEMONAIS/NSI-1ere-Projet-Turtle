@@ -1,6 +1,7 @@
 from modules import *
 
-def gradient(): # fonctionne pas -> à bidouiller
+#attention la fonction ne fonctionne pas
+def gradient(): # on crée une fonction"gradient" pour faire un dégradé
     if user_hour == 17 or user_hour == 18:
         color_start = "#4563EB"
         color_end = "#3A87C4"
