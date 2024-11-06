@@ -21,13 +21,13 @@
         - Initialisation de l'orientation par défaut ainsi que la vitesse par défaut
     - Globalisation des variables des choix de l'utililateur pour une utilisation à travers tous les fichiers du projet
     - Importation des modules nécessaires au projet
-    - Création de la fonction ```my_teleport()``` pour contourner le problème de certaines versions de python (```turtle.teleport()``` est absent de certaines versions de python)
 - Configuration du projet pour un fonctionnement en plusieurs fichiers
 - Création du fichier main.py et importation des différents modules et fichiers
 - Création de la fonction ```cloud()``` qui dessine des nuages à des positions et tailles aléatoires
 - Création de la fonction ```beach()``` qui dessine la plage aux coordonnées données
 - Création de la fonction ```bird()``` qui est une annimation qui fait voler des oiseax
 - Documentation des fichiers cloud.py, init.py, beach.py et bird.py
+- Documentation de toutes les fonctions du code avec """ """
 
 
 ### Nora :
