@@ -1,4 +1,9 @@
 # 1ère NSI - 2024-2025 - Projet Python avec le module Turtle - Nora TERRAL et Cédric VILLEMONAIS
+## Documentation :
+<a href="https://docs.python.org/fr/3/library/turtle.html" target="_blank">Documentation officielle</a>
+
+<a href="https://github.com/Cedric-VILLEMONAIS/Python-Turtle-Documentation" target="_blank">Ma dcumentation</a>
+
 ## Description du projet :
 
 
@@ -21,7 +26,6 @@
 - Création de la fonction ```beach()``` qui dessine la plage aux coordonnées données
 - Création de la fonction ```bird()``` qui est une annimation qui fait voler des oiseax
 - Documentation des fichiers cloud.py, init.py, beach.py et bird.py
-
 
 
 ### Nora :
