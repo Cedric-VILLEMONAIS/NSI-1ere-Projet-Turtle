@@ -5,7 +5,6 @@ def palmtree(): #on crée la fonction "palmtree()" pour dessiner un palmier
     Cette fonction permet de dessiner un palmier à droite du dessin
     """
     up() #on lève le stylet
-    width = randint(1,3) #on met l'épaisseur du stylet à un nombre aléatoire entre 1 et 3
     goto(750,-375) #on déplace la tortue, avec le stylet en position écriture, au point de coordonnées 750 pour l'axe des abcisses, x, et -375 pour l'axe des ordonnées, y
     if user_hour==17 or user_hour==18: #on réalise le programme suivant si l'heure choisie par l'utilisateur vaut 17 ou vaut 18
         fillcolor("#AA7B6B") #on sélectionne la couleur marron clair pour le remplissage

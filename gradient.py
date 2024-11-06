@@ -17,6 +17,5 @@ def gradient(): # fonctionne pas -> à bidouiller
     up()
     goto(-750,0)
     down()
-    width,height = 1500,-375
     up()
-    end_fill
+    end_fill()
