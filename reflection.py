@@ -1,4 +1,4 @@
-from modules import *
+from modules import * # Importation du fichier modules.py
 
 def reflection(): #on crée la fonction "reflection()" pour dessiner la réflection du soleil sur la mer
     """
