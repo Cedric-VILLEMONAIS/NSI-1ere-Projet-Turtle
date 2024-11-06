@@ -1,13 +1,13 @@
 from modules import *
 
-def sunset() :
+def sunset() : #on crée une fonction "sunset()" pour dessiner un soleil différent en fonction de l'heure choisie par l'utilisateur pour faire un soleil couchant plus ou moins prononcé en fonction de l'heure
     """
     Cette fonction permet de dessiner un soleil ainsi que de lui attribuer une couleur et de le déplacer en fonction de l'heure choisie précédemment
     """   
-    up()
-    x=0
-    y=0
-    seth(90)
+    up() #on lève le stylet
+    x=0 #on crée une variable "x" à laquelle on affecte 0
+    y=0 #on crée une variable "y" à laquelle on affecte 0
+    seth(90) #on oriente la tortue vers le nord (le haut du dessin)
     if 17>=user_hour<18:
         x=-80
         goto(x,y)
