@@ -1,4 +1,4 @@
-from modules import *
+from modules import * # Importation du fichier modules.py
 
 def waves(x_start, x_end, y_start, y_end): #on crée la fonction "waves()" pour dessiner des vagues sur la mer
     """
