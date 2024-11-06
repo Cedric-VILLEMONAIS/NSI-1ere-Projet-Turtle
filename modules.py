@@ -10,7 +10,8 @@ from tkinter import messagebox
 def teleport(x,y):
     """
     Fonction qui permet de déplacer la tortue sans que le stylo écrive vers l'endroit précisé.
-
+    :param x: int
+    :param y: int
     """
     penup()
     goto(x,y)
