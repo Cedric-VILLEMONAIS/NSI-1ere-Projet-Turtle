@@ -8,8 +8,8 @@ def sunset() : #on crée une fonction "sunset()" pour dessiner un soleil différ
     x=0 #on crée une variable "x" à laquelle on affecte 0
     y=0 #on crée une variable "y" à laquelle on affecte 0
     seth(90) #on oriente la tortue vers le nord (le haut du dessin)
-    if 17>=user_hour<18:
-        x=-80
+    if 17>=user_hour<18: #on réalise le programme suivant si l'heure choisie par l'utilisateur est entre 17 inclus et 18 non inclus
+        x=-80 #on affecte -80 à la variable x"
         goto(x,y)
         x=xcor()
         down()
