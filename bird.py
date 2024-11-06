@@ -16,7 +16,7 @@ def bird(x_start, x_end, y_start, y_end) :
     bird_var.penup()
     bird_var.speed(1)
     while True :
-        bird_var.goto(x_start-200, randint(y_start, y_end))
+        bird_var.teleport(x_start-200, randint(y_start, y_end))
         while bird_var.pos()[0] < (x_end+200) :
             bird_var.shape("bird_1.gif")
             bird_var.forward(25)
