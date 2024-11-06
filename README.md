@@ -9,7 +9,7 @@
 Dans notre projet nous avons réalisé un coucher de soleil. Nous demandons à l'utilisateur l'heure qu'il souhaite ainsi que s'il souhaite des nuages. En fonction de l'heure donné par l'utilisateur les couleurs s'adaptent. Notre projet dessine le soleil, la mer, la plage le reflet du soleil dans l'eau, des poissons, des vagues, de l'écume, un palmier, des nuages, des étoiles fonction de l'heure et des oiseaux qui sont animés et volent.
 
 ### Amélioration possibles :
-Les améliorations possibles sont la création d'un dégradé autour du soleil ainsi que faire des châteaux de sable sur la plage
+Si nous avions eu plus de temps nos améliorations possibles sont la création d'un dégradé autour du soleil ainsi que faire des châteaux de sable sur la plage
 
 ## Répartition des tâches réalisées :
 ### Cédric :

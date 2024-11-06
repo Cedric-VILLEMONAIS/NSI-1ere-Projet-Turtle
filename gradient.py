@@ -21,3 +21,4 @@ def gradient(): # on crée une fonction"gradient" pour faire un dégradé
     down() # on pose le stylet
     #la fonction n'est pas terminée
     end_fill() #désactiver le mode remplissage
+
