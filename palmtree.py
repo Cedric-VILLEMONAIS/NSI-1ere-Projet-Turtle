@@ -1,4 +1,4 @@
-from modules import *
+from modules import * # Importation du fichier modules.py
 
 def palmtree(): #on crée la fonction "palmtree()" pour dessiner un palmier
     """
