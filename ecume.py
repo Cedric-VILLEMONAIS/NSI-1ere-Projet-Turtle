@@ -1,4 +1,4 @@
-from modules import *
+from modules import * # Importation du fichier modules.py
 
 def ecume(): #on crée une fonction "ecume()" pour dessiner de l'écume
     """
