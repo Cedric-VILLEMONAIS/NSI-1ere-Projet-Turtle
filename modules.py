@@ -6,7 +6,12 @@ from random import randint
 # messagebox pour afficher un message attention lors de l'exécution du script
 from tkinter import messagebox
 
+# création de la fonction teleport (teleport est inclus dans turtle mais certaines versions de python n'ont pas cette fonction)
 def teleport(x,y):
+    """
+    Fonction qui permet de déplacer la tortue sans que le stylo écrive vers l'endroit précisé.
+
+    """
     penup()
     goto(x,y)
     pendown()
