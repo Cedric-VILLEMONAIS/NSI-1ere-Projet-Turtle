@@ -1,31 +1,31 @@
-# Documentation :
-<a href="https://docs.python.org/fr/3/library/turtle.html" target="_blank">Documentation officielle</a>
+# 1ère NSI - 2024-2025 - Projet Python avec le module Turtle - Nora TERRAL et Cédric VILLEMONAIS
+## Description du projet :
 
-<a href="https://github.com/Cedric-VILLEMONAIS/Python-Turtle-Documentation" target="_blank">Ma dcumentation</a>
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Répartition des tâches réalisées :
+### Cédric :
+- Création du repository GitHub
+- Création du fichier modules.py pour pouvoir unifier tous les modules et variables dans un seul fichier à importer :
+    - Création de la fonction init :
+        - Création de la fenêtre d'affichage (Résolution, title et positionnement sur l'écran de l'utilisateur)
+        - Affichage d'un message d'avertissement consernant la résolution minimale
+        - Création des variables qui recueillent les choix de l'utililateur
+        - Changement de la couleur de l'arrière plan en fonction de l'heure choisi par l'utilisateur
+        - Initialisation de l'orientation par défaut ainsi que la vitesse par défaut
+    - Globalisation des variables des choix de l'utililateur pour une utilisation à travers tous les fichiers du projet
+    - Importation des modules nécessaires au projet
+    - Création de la fonction ```my_teleport()``` pour contourner le problème de certaines versions de python (```turtle.teleport()``` est absent de certaines versions de python)
+- Configuration du projet pour un fonctionnement en plusieurs fichiers
+- Création du fichier main.py et importation des différents modules et fichiers
+- Création de la fonction ```cloud()``` qui dessine des nuages à des positions et tailles aléatoires
+- Création de la fonction ```beach()``` qui dessine la plage aux coordonnées données
+- Création de la fonction ```bird()``` qui est une annimation qui fait voler des oiseax
+- Documentation des fichiers cloud.py, init.py, beach.py et bird.py
 
-Un coucher de soleil avec des nuages sur une plage avec la mer et des poissons et sur la plage des chateaux de sables. On peut mettre des oiseaux qui volent dans le ciel.
 
-**Coucher de soleil :** Faire un cercle pour le soleil avec pour le coucher de soleil des petits cercles autours avec un dégradé (pour le dégradé faire une fonction qui trace plein de petits cercles autour du soleil avec une boucle qui active l'autre fonction avec comme un système d'incrémentation sur le code hexadécimal de la couleur. Cette deuxième fonction s'appellera gradient() prendra pour arguments (couleur_départ_hex, couleur_fin_hex)
 
-**Nuages :** Faire une fonction nuage(x_depart, x_fin, y_depart, y_fin, nb_nuages) qui va créer créer un nombre de nuages donné. Pour la taille des nuages faire un random randint()
+### Nora :
+- Création des fonctions: ```sunset()```, ```sea()```, ```fish()```, ```waves()```, ```palmtree()```, ```ecume()```,
+- A essayé de créer une fonction ```gradient()``` pour faire des dégradés
+- A commenté les fonctions: ```sunset()```, ```sea()```, ```fish()```, ```waves()```, ```palmtree()```, ```ecume()```, ```reflection()``` et le fichier main
 
-**Plage :** Faire une plage d'une taille plus ou moins grande. Pour la taille de la plage faire des calculs pour que sa taille s'adapte en fonction de l'horaire choisi par l'utilisateur
-
-**Mer :** voire s'il n'est pas possible de faire un effet pour avoir l'impression que l'eau arrive du fond de l'image si c'est techniquement possible
-
-**Animaux aquatiques :** Essayer de créer plusieurs tortues en même temps avec des variables et avec turtle shape() voir s'il est techniquement possible de mettre un poisson et d'en fonction de la position de la mer sur le dessin faire en sorte qu'il bouge à des postitions aléatoires. Essayer de faire aussi avec des boucles while en changeant l'apparence du turtle afin qu'on ai un effet de poisson qui nage --> register_shape()
-
-**Chateaux de sables :** avec un random randint créer un nombre aléatoire de chateaux avec des tailles aléatoires
-
-**Utiliser éléments du cours :**
-- Fonctions avec des valeurs par défaut
-- La fonction lambda
-- Penser aux variables globales et locales
-- **Documenter les fonctions et le code (cours 3.)**
-- **Effectuer des tests avec le module doctest et les conditions try et expect (cours 3.)**
-
-**Demander à l'utilisateur :** (utiliser numinput() : ex : numinput("Heure", "Quelle heure entre 18 et 22 ?", minval=18, maxval=22)
--  Quelle heure entre par ex (18 et 22) et adapter en fonction la couleur d'arrière plan ainsi que la couleur du soleil
-- Si le temps est nuageux, si oui mettre des nuages en random et si non désactiver les nuages
