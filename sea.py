@@ -1,4 +1,4 @@
-from modules import *
+from modules import * # Importation du fichier modules.py
 
 def sea(x_start, x_end, y_start, y_end) : #on crée une fonction "sea()" pour dessiner la mer
     """
