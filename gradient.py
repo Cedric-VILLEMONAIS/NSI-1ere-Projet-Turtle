@@ -1,4 +1,4 @@
-from modules import *
+from modules import * # Importation du fichier modules.py
 
 #attention la fonction ne fonctionne pas
 def gradient(): # on crée une fonction"gradient" pour faire un dégradé
