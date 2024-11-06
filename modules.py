@@ -14,6 +14,7 @@ def init() :
 
 
     messagebox.showwarning(title="Attention", message="Pour un fonctionnement optimal veuillez utiliser une résolution d'affichage suppérieure à 1500 * 750 pixels")
+    messagebox.showwarning(title="Attention", message="Merci de ne pas utiliser l'interpréteur python de Thonny parce qu'il n'est pas à jour !!!")
     user_hour = round(numinput("Heure", "Quelle heure entre 17 et 21 h ?", minval=17, maxval=21))
     user_cloud = round(numinput("Nuages", "Est-ce que le temps est nuageux (0 non et 1 oui)?", minval=0, maxval=1))
 

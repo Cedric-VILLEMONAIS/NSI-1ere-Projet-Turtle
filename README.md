@@ -15,7 +15,7 @@
 - Création du fichier modules.py pour pouvoir unifier tous les modules et variables dans un seul fichier à importer :
     - Création de la fonction init :
         - Création de la fenêtre d'affichage (Résolution, title et positionnement sur l'écran de l'utilisateur)
-        - Affichage d'un message d'avertissement consernant la résolution minimale
+        - Affichage d'un message d'avertissement consernant la résolution minimale et la fonction teleport du module ```turtle()``` qui ne fonctionne pas sur thonny
         - Création des variables qui recueillent les choix de l'utililateur
         - Changement de la couleur de l'arrière plan en fonction de l'heure choisi par l'utilisateur
         - Initialisation de l'orientation par défaut ainsi que la vitesse par défaut
